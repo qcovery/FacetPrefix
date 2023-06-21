@@ -28,7 +28,7 @@
  */
 namespace FacetPrefix\Search\Params;
 
-use Zend\Config\Config;
+use Laminas\Config\Config;
 
 /**
  * Trait to add facet limiting settings to a Params object.
