@@ -86,4 +86,9 @@ class Params extends BaseParams
         }
         return $facetSet;
     }
+    
+    // eWW Bugfix
+    public function getFilters () {
+	    return $this->getFilterSettings();
+    }
 }
